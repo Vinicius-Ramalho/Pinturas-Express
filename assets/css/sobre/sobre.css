@@ -1,0 +1,76 @@
+.sobre{
+    padding: 1rem .74rem;
+    background-image: url("../../img/fundo-sobre.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+.sobre__chamada{
+    color: var(--branco);
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.sobre__titulo{
+    color: var(--branco);
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 1rem 0;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.sobre__texto{
+    color: var(--branco);
+    line-height: 1.3rem;
+    text-align: justify;
+    padding-bottom: 1rem;
+}
+
+.sobre__carroussel{
+    display: flex;
+    justify-content: center;
+}
+
+.sobre__carroussel .carousel{
+    width: 90%;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-position: center;
+}
+
+
+/* >= 768px ******/
+@media screen and (min-width: 768px){
+    .sobre{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 90vh;
+    }
+
+    .sobre__carroussel{
+        width: 350px;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .sobre{
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .sobre__conteudo{
+        width: 500px;
+    }
+}

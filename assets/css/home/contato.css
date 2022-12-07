@@ -1,0 +1,77 @@
+.contato{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    padding: 2rem .75rem;;
+    background-color: var(--branco);
+}
+
+.contato__titulo{
+    color: var(--azul-escuro);
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.contato__conteudo{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.contato__conteudo i {
+    font-size: 2rem;
+    color: var(--azul-escuro);
+    margin-right: .5rem;
+}
+
+.contato__texto{
+    color: var(--azul-escuro);
+    font-weight: 700;
+    text-align: left;
+}
+
+.contato__whatsapp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--verde-whatsapp);
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 30px;
+    color: var(--branco);
+    font-size: 1.2rem;
+    font-weight: 700;
+    box-shadow: 0px 4px 10px #000;
+}
+
+.contato__whatsapp i{
+    margin-right: .5rem;
+}
+
+
+/* <= 768px ******/
+@media screen and (min-width: 768px) {
+    .contato__whatsapp{
+        width: 70%;
+        align-self: center;
+    }   
+}
+
+
+@media screen and (min-width: 1200px){
+    .contato__container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .contato__conteudo{
+        width: 300px;
+    }
+
+    .contato__whatsapp{
+        width: 20%;
+    }  
+}
+

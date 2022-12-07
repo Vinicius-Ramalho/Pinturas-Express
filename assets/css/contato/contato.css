@@ -1,0 +1,35 @@
+.contato__container{
+    height: 90vh;
+}
+
+.contato__whatsapp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato__whatsapp .contato__imagem{
+    margin-top: 1.5rem;
+}
+
+.contato__titulo{
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--branco);
+    font-weight: 700;
+    text-shadow: 2px 2px 5px #000;
+    padding: 2rem 0;
+}
+
+.contato__texto{
+    color: var(--branco);
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    width: 70%;
+}
+
+.contato__imagem{
+    width: 150px;
+}
